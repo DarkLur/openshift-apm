@@ -1,4 +1,4 @@
-FROM elastic/apm-server:7.4.2
+FROM docker.elastic.co/apm/apm-server:7.4.2
 USER root
 RUN chown -R apm-server /usr/share/apm-server
 RUN chmod -R 777 /usr/share/apm-server
